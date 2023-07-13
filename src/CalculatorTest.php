@@ -21,12 +21,20 @@ class CalculatorTest extends TestCase {
         $this->assertEquals(2, $result);
     }
 
-    public function testAddTwoNumber() {
+    public function testAddTwoNumbers() {
         $calculator = new Calculator;
 
         $result = $calculator->add("2,3");
 
         $this->assertEquals(5, $result);
+    }
+
+    public function testAddUnknowAmountOfNumbers() {
+        $calculator = new Calculator;
+
+        $result = $calculator->add("4,3,6,8");
+
+        $this->assertEquals(21, $result);
     }
 }
 
