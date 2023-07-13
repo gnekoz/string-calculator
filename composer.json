@@ -1,0 +1,17 @@
+{
+    "name": "luca.stauble/string-calculator",
+    "autoload": {
+        "psr-4": {
+            "LucaStauble\\StringCalculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luca Stauble",
+            "email": "luca.stauble@zextras.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
